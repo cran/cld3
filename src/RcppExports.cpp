@@ -7,7 +7,7 @@ using namespace Rcpp;
 
 // cld3_detect_language
 Rcpp::CharacterVector cld3_detect_language(std::vector<std::string> texts);
-RcppExport SEXP cld3_cld3_detect_language(SEXP textsSEXP) {
+RcppExport SEXP _cld3_cld3_detect_language(SEXP textsSEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -18,7 +18,7 @@ END_RCPP
 }
 // cld3_detect_language_df
 Rcpp::DataFrame cld3_detect_language_df(std::vector<std::string> texts);
-RcppExport SEXP cld3_cld3_detect_language_df(SEXP textsSEXP) {
+RcppExport SEXP _cld3_cld3_detect_language_df(SEXP textsSEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -29,7 +29,7 @@ END_RCPP
 }
 // cld3_detect_language_mixed
 Rcpp::DataFrame cld3_detect_language_mixed(std::string text, size_t len);
-RcppExport SEXP cld3_cld3_detect_language_mixed(SEXP textSEXP, SEXP lenSEXP) {
+RcppExport SEXP _cld3_cld3_detect_language_mixed(SEXP textSEXP, SEXP lenSEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -41,9 +41,9 @@ END_RCPP
 }
 
 static const R_CallMethodDef CallEntries[] = {
-    {"cld3_cld3_detect_language", (DL_FUNC) &cld3_cld3_detect_language, 1},
-    {"cld3_cld3_detect_language_df", (DL_FUNC) &cld3_cld3_detect_language_df, 1},
-    {"cld3_cld3_detect_language_mixed", (DL_FUNC) &cld3_cld3_detect_language_mixed, 2},
+    {"_cld3_cld3_detect_language", (DL_FUNC) &_cld3_cld3_detect_language, 1},
+    {"_cld3_cld3_detect_language_df", (DL_FUNC) &_cld3_cld3_detect_language_df, 1},
+    {"_cld3_cld3_detect_language_mixed", (DL_FUNC) &_cld3_cld3_detect_language_mixed, 2},
     {NULL, NULL, 0}
 };
 

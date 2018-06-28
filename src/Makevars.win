@@ -1,9 +1,17 @@
-# Links against libprotobuf build from Rtools gcc toolchain.
+# ProtoBuf Version
+VERSION = 3.5.1
+RWINLIB = ../windows/protobuf-${VERSION}
+CXX_STD = CXX11
+
+# Support old toolchain
 COMPILED_BY ?= gcc-4.6.3
-CXX_STD=CXX11
-PKG_CPPFLAGS = -I. -I../windows/protobuf-3.2.0/include
-PKG_LIBS = -L. -lstatcld3 \
-	-L../windows/protobuf-3.2.0/lib${subst gcc,,${COMPILED_BY}}${R_ARCH} -lprotobuf
+ifeq ($(R_COMPILED_BY),-4.6.3)
+VERSION = 3.2.0
+endif
+
+PKG_CPPFLAGS = -I. -I$(RWINLIB)/include
+PKG_LIBS = -L. -lstatcld3 -L$(RWINLIB)/lib${subst gcc,,${COMPILED_BY}}${R_ARCH} \
+	-lprotobuf-lite
 
 LIBCLD3 = \
 	libcld3/base.o \
@@ -40,8 +48,8 @@ libstatcld3.a: $(LIBCLD3)
 	$(AR) rcs libstatcld3.a $(LIBCLD3)
 
 winlibs:
-	"${R_HOME}/bin${R_ARCH_BIN}/Rscript.exe" "../tools/winlibs.R"
-	../windows/protobuf-3.2.0/bin$(WIN)/protoc cld_3/protos/*.proto --cpp_out=.
+	"${R_HOME}/bin${R_ARCH_BIN}/Rscript.exe" --vanilla "../tools/winlibs.R" $(VERSION)
+	"$(RWINLIB)/bin$(WIN)/protoc" cld_3/protos/*.proto --cpp_out=.
 
 clean:
 	rm -f $(OBJECTS) $(SHLIB) $(LIBCLD3) libstatcld3.a cld_3/protos/*.pb.cc cld_3/protos/*.pb.h
