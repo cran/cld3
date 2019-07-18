@@ -1,13 +1,13 @@
-d6a2b4e97b5873b5132add8835fdc03b *DESCRIPTION
+d3db3163bece02dcd5a3df42ce950954 *DESCRIPTION
 846ee60e0184ccf9a6a6db898415dc98 *NAMESPACE
-fd6fc3be9e8f8a2cc7c30063f9553265 *NEWS
+bcaba11f96d2050ed4ac50ac6c667ce5 *NEWS
 e694f232bf87cce0e7022679fedce221 *R/RcppExports.R
 073a9888b107acb91edc42aef9362f9e *R/cld3.R
 24e2f6659d1fd7c21118e0b00b1e77af *cleanup
-ad8be1ee141709a4ec20ff68419a0557 *configure
+274d2a6de1c2825ae20b780e86c99351 *configure
 451be8ade4b337a5b6efd70b46225834 *man/cld3.Rd
 816c4ad49a598554604b3f30b4063964 *src/Makevars.in
-e20b7aab046975b03833870388395751 *src/Makevars.win
+ea99928832a1dcba06408d09166d3b4a *src/Makevars.win
 ecbae708b6b374dbdbb5ae9db32a5316 *src/RcppExports.cpp
 65eef9807c3e130b8bc1c09e36bda872 *src/cld_3/protos/feature_extractor.pb.cc
 cc8622e524e052375943133836c6640a *src/cld_3/protos/feature_extractor.proto
