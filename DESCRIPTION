@@ -1,7 +1,7 @@
 Package: cld3
 Type: Package
 Title: Google's Compact Language Detector 3
-Version: 1.4.4
+Version: 1.5.0
 Authors@R: c(
     person("Jeroen", "Ooms", ,"jeroen@berkeley.edu", role = c("aut", "cre"),
       comment = c(ORCID = "0000-0002-4035-0289")),
@@ -13,17 +13,17 @@ Description: Google's Compact Language Detector 3 is a neural network model for 
     from 'cld2'. See <https://github.com/google/cld3#readme> for more information.
 License: Apache License 2.0
 Encoding: UTF-8
-URL: https://docs.ropensci.org/cld3/, https://github.com/ropensci/cld3
-        (devel) https://github.com/google/cld3 (upstream)
+URL: https://docs.ropensci.org/cld3/ https://github.com/ropensci/cld3
+        https://ropensci.r-universe.dev/cld3
 Imports: Rcpp
 LinkingTo: Rcpp
 RoxygenNote: 6.0.1.9000
 SystemRequirements: libprotobuf and protobuf-compiler
 Suggests: testthat, cld2
 NeedsCompilation: yes
-Packaged: 2022-10-21 08:28:41 UTC; jeroen
+Packaged: 2023-01-29 22:00:22 UTC; jeroen
 Author: Jeroen Ooms [aut, cre] (<https://orcid.org/0000-0002-4035-0289>),
   Google Inc [cph] (CLD3 C++ library)
 Maintainer: Jeroen Ooms <jeroen@berkeley.edu>
 Repository: CRAN
-Date/Publication: 2022-10-22 13:05:05 UTC
+Date/Publication: 2023-01-29 22:20:06 UTC
