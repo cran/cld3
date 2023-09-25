@@ -1,13 +1,13 @@
-6a4ed12af94204e127b8c68f1656cb32 *DESCRIPTION
+eafa7b07bcc5bf1206bb3c568fa28a05 *DESCRIPTION
 846ee60e0184ccf9a6a6db898415dc98 *NAMESPACE
-55cf79973a3f66952e0b6a25e63f2258 *NEWS
+4394c1ff23a9cf1273bc8db9208a743f *NEWS
 e694f232bf87cce0e7022679fedce221 *R/RcppExports.R
 073a9888b107acb91edc42aef9362f9e *R/cld3.R
 e919d0f822f9aaf5e87d1e45651733f2 *cleanup
-d93c900483412cc77529036d16b6c2a7 *configure
+2d156cb04642600af605186e27e3e713 *configure
 451be8ade4b337a5b6efd70b46225834 *man/cld3.Rd
 eb360e94862541bf5d7fd078fdb8aeeb *src/Makevars.in
-908a52da3611ff33505ae754d5ddf98d *src/Makevars.win
+eae96f31fe498bf5af53bf31507c47e7 *src/Makevars.win
 3691bd0f4b70712dee36a763893c5ce9 *src/RcppExports.cpp
 65eef9807c3e130b8bc1c09e36bda872 *src/cld_3/protos/feature_extractor.pb.cc
 cc8622e524e052375943133836c6640a *src/cld_3/protos/feature_extractor.proto
@@ -75,4 +75,4 @@ c7e1f86ffc78346a6cb7b5d944dd7fed *src/libcld3/task_context.h
 d1976631a83260c0283f7b6bb3a67e25 *src/libcld3/workspace.cc
 1f91a0bd46d768f431cc5976bf64fa8e *src/libcld3/workspace.h
 cb34bc33378f445ed141f2818f93b6dc *src/wrapper.cpp
-1f7a29f4ece3434c21455a04af12feec *tools/winlibs.R
+43714c58f8e87a0d7501ae1214a7893d *tools/winlibs.R
