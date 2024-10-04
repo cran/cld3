@@ -1,10 +1,10 @@
-eafa7b07bcc5bf1206bb3c568fa28a05 *DESCRIPTION
+6984158ad9a06a736eec7cfb23d1d41b *DESCRIPTION
 846ee60e0184ccf9a6a6db898415dc98 *NAMESPACE
 4394c1ff23a9cf1273bc8db9208a743f *NEWS
 e694f232bf87cce0e7022679fedce221 *R/RcppExports.R
 073a9888b107acb91edc42aef9362f9e *R/cld3.R
 e919d0f822f9aaf5e87d1e45651733f2 *cleanup
-2d156cb04642600af605186e27e3e713 *configure
+81362acbf257e4de1f872e99ee3345ec *configure
 451be8ade4b337a5b6efd70b46225834 *man/cld3.Rd
 eb360e94862541bf5d7fd078fdb8aeeb *src/Makevars.in
 eae96f31fe498bf5af53bf31507c47e7 *src/Makevars.win
