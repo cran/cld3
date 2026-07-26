@@ -1,7 +1,7 @@
 Package: cld3
 Type: Package
 Title: Google's Compact Language Detector 3
-Version: 1.6.1
+Version: 1.6.2
 Authors@R: c(
     person("Jeroen", "Ooms", ,"jeroenooms@gmail.com", role = c("aut", "cre"),
       comment = c(ORCID = "0000-0002-4035-0289")),
@@ -22,9 +22,9 @@ RoxygenNote: 6.0.1.9000
 SystemRequirements: libprotobuf and protobuf-compiler
 Suggests: testthat, cld2
 NeedsCompilation: yes
-Packaged: 2024-10-03 14:12:28 UTC; jeroen
-Author: Jeroen Ooms [aut, cre] (<https://orcid.org/0000-0002-4035-0289>),
+Packaged: 2026-07-26 22:44:24 UTC; jeroen
+Author: Jeroen Ooms [aut, cre] (ORCID: <https://orcid.org/0000-0002-4035-0289>),
   Google Inc [cph] (CLD3 C++ library)
 Maintainer: Jeroen Ooms <jeroenooms@gmail.com>
 Repository: CRAN
-Date/Publication: 2024-10-04 15:30:02 UTC
+Date/Publication: 2026-07-26 23:10:07 UTC
